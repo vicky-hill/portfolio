@@ -1,0 +1,65 @@
+.sidebar {
+    position: absolute;
+    width: 15vw;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.name-tag {
+    font-family: 'IBM Plex Sans';
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #3D3D3D;
+}
+
+.nav {
+    margin-top: 50px;
+}
+
+.nav p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-item {
+    background-color: transparent;
+    padding: 15px 25px;
+    text-align: left;
+    color: #3D3D3D;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+}
+
+.nav-item.active {
+    background-color: #D3C596;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-item:not(.active):hover {
+    color: #c4b37c;
+}
+
+.logo-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    font-size: 18px;
+    color: #3d3d3d41;
+}
+
+.logo-footer a {
+   color: #3d3d3d41;
+}
+
+.logo-footer i{
+    margin: 20px 7px;
+    transition: .5s;
+}
+
+.logo-footer i:hover {
+    color: #3D3D3D;
+}

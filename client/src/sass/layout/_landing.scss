@@ -1,0 +1,79 @@
+.landing {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 85vw;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../../images/Landing/gold-mac.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-greeting {
+    text-align: right;
+    padding-top: 15vh;
+    padding-bottom: 40px;
+    padding-right: 150px;
+}
+
+.greeting {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 80px;
+}
+
+.subtitle {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.landing-languages {
+    text-align: right;
+    padding-right: 110px;
+    padding-bottom: 30px;
+}
+
+.language {
+    color: white;
+    font-family: 'IBM Plex Sans';
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-right: 25px;
+    transition: .5s;
+}
+
+.language-logo {
+    height: 40px;
+    padding-right: 7px;
+}
+
+.shift {
+    margin-right: 40px;
+}
+
+.html:hover {
+    background-color: #E44D26;
+}
+
+.css:hover {
+    background-color: #1672B6;
+}
+.js:hover {
+    background-color: #D4B82F;
+}
+
+.node:hover {
+    background-color: #9ada52;
+}
+
+.react:hover {
+    background-color: #8de4fc;
+}
+
+.mongo:hover {
+    background-color: #63bb5b;
+}

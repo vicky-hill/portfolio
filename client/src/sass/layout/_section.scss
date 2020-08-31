@@ -1,0 +1,112 @@
+.section {
+    text-align: center;
+    padding: 70px 20px;
+
+    .title {
+        font-family: 'IBM Plex Sans';
+        color: rgb(61, 61, 61);
+    }
+
+}
+
+.col {
+    display: inline-block;
+    width: 48%;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    height: 100%;
+}
+
+.col .screenshot {
+    width: 100%;
+    border: solid 1px #AFABAB;
+    border-radius: 5px;
+}
+
+.col img:hover {
+    border: solid 1px #AFABAB;
+    box-shadow: 0px 0px 20px 5px #ccc;
+    cursor: pointer;
+}
+
+.col h3 {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #0D0D0D;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.col p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #0D0D0D;
+    margin-top: 8px;
+    text-align: left;
+    width:90%;
+    line-height: 23px;
+}
+
+.row {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+#createdwith {
+    font-size: 12px;
+    color: silver; 
+    font-weight: 600;
+}
+
+#tools {
+    font-size: 12px;
+    color: #262626; 
+    font-weight: 600;
+}
+
+.col button {
+    float: left;
+    background-color: #E0C97D;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-family: "Raleway";
+    color: white;
+    font-weight: 600;
+    margin: 25px 0px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+.col button:hover {
+    box-shadow: 0px 0px 10px 2px lightgrey;
+    cursor: pointer;
+    background-color: white;
+    color: #E0C97D;
+}
+
+.col button:focus {
+    outline:0;
+}
+
+#github {
+    background-color: gainsboro;
+}
+
+#github:hover {
+    color: gainsboro;
+    background-color: white;
+}
+
+#lo70s {
+    background-color: #E0C97D;
+}
+
+#lo70s:hover {
+    color: #E0C97D;
+    background-color: white;
+}
