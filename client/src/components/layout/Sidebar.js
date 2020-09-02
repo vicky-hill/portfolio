@@ -35,8 +35,8 @@ const Sidebar = () => {
                     </div>
                 </a>
 
-                <a href="#contact" id="contact-nav">
-                    <div className="nav-item">
+                <a href="#contact" >
+                    <div className="nav-item" id="contact-nav">
                         <i className="fas fa-envelope"></i><p>Contact</p>
                     </div>
                 </a>
