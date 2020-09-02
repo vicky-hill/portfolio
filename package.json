@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickyungemach/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickyungemach/portfolio/issues"
+  },
+  "homepage": "https://github.com/vickyungemach/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
