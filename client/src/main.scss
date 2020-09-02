@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import "sass/abstracts/variables";
 @import "sass/layout/landing";
 @import "sass/layout/sidebar";
 @import "sass/layout/section";
-@import "sass/layout/projects";
+@import "sass/layout/contact";
+
 
 *,
 *::before,
@@ -17,7 +18,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+
   font-size: 62.5%;
   font-family: 'Open Sans';
 }
@@ -36,4 +37,5 @@ a {
   width: 85vw;
   height: 100vh;
   overflow: scroll;
+  scroll-behavior: smooth;
 }

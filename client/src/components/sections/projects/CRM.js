@@ -10,7 +10,6 @@ const CRM = () => {
           benefits of a central CRM, while integrating workflows specifically designed for Lo70s' lead generation
           strategy.</p>
             <p><span id="createdwith">Created with </span><span id="tools">&nbsp;html5, css3, php, mysql</span></p>
-            <a target="_blank" href="https://www.hillbrewingco.net/register"><button id="github">GITHUB</button></a>
         </div>
     )
 }

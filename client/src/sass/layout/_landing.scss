@@ -55,6 +55,10 @@
     margin-right: 40px;
 }
 
+.doubleshift {
+    margin-right: 80px;
+}
+
 .html:hover {
     background-color: #E44D26;
 }
@@ -77,3 +81,28 @@
 .mongo:hover {
     background-color: #63bb5b;
 }
+
+.redux:hover {
+    background-color: #8a58d6;
+}
+
+.sass:hover {
+    background-color: #df6da8;
+}
+
+.bootstrap:hover {
+    background-color: #563E7C;
+}
+
+#resume-img {
+    display: block;
+    width: 70%;
+    margin: 90px auto;
+    box-shadow: 0px 0px 20px 5px #ccc;
+    transition: 0.4s;
+}
+
+#resume-img:hover {
+    width: 73%;
+}
+

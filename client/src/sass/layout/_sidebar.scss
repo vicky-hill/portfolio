@@ -31,9 +31,10 @@
     color: #3D3D3D;
     font-family: 'IBM Plex Sans';
     font-weight: 400;
+    transition: 0.2s;
 }
 
-.nav-item.active {
+.active {
     background-color: #D3C596;
     color: white;
     font-weight: 600;
@@ -56,7 +57,7 @@
 }
 
 .logo-footer i{
-    margin: 20px 7px;
+    margin: 25px 10px;
     transition: .5s;
 }
 

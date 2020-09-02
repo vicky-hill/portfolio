@@ -1,10 +1,12 @@
 .section {
     text-align: center;
     padding: 70px 20px;
+    padding-bottom: 20px;
 
     .title {
         font-family: 'IBM Plex Sans';
         color: rgb(61, 61, 61);
+        font-size: 34px;
     }
 
 }
@@ -23,10 +25,15 @@
     border-radius: 5px;
 }
 
-.col img:hover {
+.col img {
+    transition: 0.5s;
+}
+
+.col img:not(#potrait):hover {
     border: solid 1px #AFABAB;
     box-shadow: 0px 0px 20px 5px #ccc;
     cursor: pointer;
+    transform: scale(1.03);
 }
 
 .col h3 {
@@ -71,15 +78,16 @@
 .col button {
     float: left;
     background-color: #E0C97D;
-    padding: 10px 20px;
+    padding: 8px 18px;
     border: none;
     border-radius: 25px;
     font-family: "Raleway";
     color: white;
-    font-weight: 600;
+    font-weight: 800;
     margin: 25px 0px;
     margin-right: 10px;
     transition: .5s;
+    font-size: 12px;
 }
 
 .col button:hover {
@@ -109,4 +117,36 @@
 #lo70s:hover {
     color: #E0C97D;
     background-color: white;
+}
+
+.col-contact {
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+    min-height: 600px;
+}
+
+#letschat {
+    font-family: "Quicksand";
+    font-size: 45px;
+}
+
+#contactmeat {
+    font-size: 17px;
+}
+
+#contact-img {
+    width: 85%;
+}
+
+#contact-img:hover {
+    border: none;
+    box-shadow: none;
+    cursor: default;
+}
+
+.contact-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
