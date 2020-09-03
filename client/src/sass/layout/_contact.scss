@@ -57,3 +57,19 @@
     font-family: "IBM Plex Sans";
     font-weight: 500;
 }
+
+
+@media only screen and (max-width: 400px) {
+    .col1  {
+        display: none;
+    }
+    
+    .col2 {
+        padding-left: 20px;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+}

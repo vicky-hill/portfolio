@@ -55,9 +55,6 @@
     margin-right: 40px;
 }
 
-.doubleshift {
-    margin-right: 80px;
-}
 
 .html:hover {
     background-color: #E44D26;
@@ -105,4 +102,58 @@
 #resume-img:hover {
     width: 73%;
 }
+
+
+
+@media only screen and (max-width: 400px) {
+    .landing {
+        width: 100vw;
+        height: 75vh;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/Landing/gold-mac.jpg');
+        background-position: right;
+    }
+
+    .landing-greeting {
+        text-align: right;
+        padding-top: 19vh;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+
+    .greeting {
+        font-size: 50px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .landing-languages {
+        text-align: right;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .language {
+        padding: 3px 10px;
+        margin-right: 15px;
+        font-size: 12px;
+    }
+    
+    .language-logo {
+        height: 20px;
+        padding-right: 7px;
+    }
+    
+    .shift {
+        margin-right: 20px;
+    }
+    
+
+    #resume-img {
+        width: 90%;
+        margin: 60px auto;
+    }
+}
+
 

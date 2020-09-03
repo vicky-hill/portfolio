@@ -44,6 +44,9 @@ const scrollSpy = () => {
             document.getElementById('contact-nav').classList.add('active');
         }
 
+
+
+
        
     });
 }

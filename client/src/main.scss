@@ -39,3 +39,10 @@ a {
   overflow: scroll;
   scroll-behavior: smooth;
 }
+
+@media only screen and (max-width: 800px) {
+  .main {
+      width: 100vw;
+  }
+
+}
