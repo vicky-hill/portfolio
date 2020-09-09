@@ -22,11 +22,7 @@ const Landing = () => {
            
             <div className="landing">
 
-                {/* Hamburger Menu */} 
-                <div className="menu-wrap">
-                <input type="checkbox" className="toggler" onChange={showSidebar} />
-                <div className="hamburger"><div></div></div>
-                </div>
+               
 
                 <div className="landing-greeting">
                     <h1 className="greeting">Hi, I'm Vicky!</h1>
