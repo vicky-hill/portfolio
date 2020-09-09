@@ -3,14 +3,14 @@ import React from 'react';
 
 const Sidebar = () => {
     return (
-        <div className="sidebar">
+        <div className="sidebar" id="sidebar">
 
             {/* Name Tag */}
             <h3 className="name-tag">Vicky</h3>
             <h3 className="name-tag">Ungemach</h3>
 
             {/* Nav */}
-            <div className="nav">
+            <div className="nav" >
 
 
 

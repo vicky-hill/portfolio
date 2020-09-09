@@ -3,7 +3,8 @@ import picture from '../../../images/vicky.png';
 
 const Contact = () => {
     return (
-        <section id="contact" >
+        <section className="scrollspy" id="contact" >
+    
             <div className="section footer">
 
                 <div className="row">

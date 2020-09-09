@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import "sass/abstracts/variables";
+@import "sass/components/mobileMenu";
 @import "sass/layout/landing";
 @import "sass/layout/sidebar";
 @import "sass/layout/section";
@@ -38,6 +39,7 @@ a {
   height: 100vh;
   overflow: scroll;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 @media only screen and (max-width: 800px) {

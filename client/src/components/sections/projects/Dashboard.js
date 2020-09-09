@@ -1,10 +1,10 @@
 import React from 'react';
-import hillbrewingcodash from '../../../images/Projects/hillbrewingdash.png';
+import hillbrewingcodash from '../../../images/Projects/hillbrewingdash2.png';
 
 const Dashboard = () => {
     return (
         <div className="col project">
-            <img class="screenshot" src={hillbrewingcodash} alt="" />
+            <a target="_blank" href="https://www.hillbrewingco.net/register"><img class="screenshot" src={hillbrewingcodash} alt="" /></a>
             <h3>Hill Brewing Co Dashboard</h3>
             <p>Created a REST API to manage the homepage's data and a dashboard where members can create, edit and delete
           recipes displayed on the homepage.</p>

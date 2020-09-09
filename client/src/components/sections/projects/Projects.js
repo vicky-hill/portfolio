@@ -7,7 +7,8 @@ import CRM from './CRM';
 
 const Projects = () => {
     return (
-        <section id="projects">
+        <section className="scrollspy" id="projects">
+
             <div className="section">
                 <h1 className="title">My Projects</h1>
                 <div className="row">
