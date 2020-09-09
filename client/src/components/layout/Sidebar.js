@@ -2,8 +2,13 @@ import React from 'react';
 
 
 const Sidebar = () => {
+    function hideSidebar() {
+        const sideBar = document.getElementById("sidebar");
+        sideBar.classList.remove("show-sidebar");
+    }
+
     return (
-        <div className="sidebar" id="sidebar">
+        <div className="sidebar" id="sidebar" onClick={hideSidebar}>
 
             {/* Name Tag */}
             <h3 className="name-tag">Vicky</h3>

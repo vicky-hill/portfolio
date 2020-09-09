@@ -12,11 +12,6 @@ import bootstrap from '../../images/Logos/bootstrap.png';
 
 const Landing = () => {
 
-    function showSidebar() {
-        const sideBar = document.getElementById("sidebar");
-        sideBar.classList.toggle("show-sidebar");
-    }
-
     return (
         <section className="scrollspy" id="home">
            
