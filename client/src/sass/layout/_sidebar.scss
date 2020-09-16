@@ -65,9 +65,9 @@
     color: #3D3D3D;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .sidebar {
-        width: 70vw;
+        width: 30vw;
         transform: translateX(-100%);
         transition: all .5s;
         z-index: 5;
@@ -75,5 +75,11 @@
 
     .show-sidebar {
         transform: translateX(0%);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sidebar {
+        width: 70vw;
     }
 }
