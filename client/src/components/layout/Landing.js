@@ -8,6 +8,7 @@ import mongo from '../../images/Logos/mongodb.png';
 import sass from '../../images/Logos/sass.png';
 import redux from '../../images/Logos/redux.png';
 import bootstrap from '../../images/Logos/bootstrap.png';
+import materialize from '../../images/Logos/materialize.png';
 
 
 const Landing = () => {
@@ -38,7 +39,7 @@ const Landing = () => {
                 <div className="landing-languages">
                     <a href="#projects" className="language redux"> <img src={redux} alt="" className="language-logo" /> Redux</a>
                     <a href="#projects" className="language sass"> <img src={sass} alt="" className="language-logo" /> Sass</a>
-                    <a href="#projects" className="language bootstrap"> <img src={bootstrap} alt="" className="language-logo" /> Bootstrap</a>
+                    <a href="#csudh" className="language materialize"> <img src={materialize} alt="" className="language-logo" /> Materialize</a>
                 </div>
             </div>
         </section>
