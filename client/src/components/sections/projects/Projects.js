@@ -4,7 +4,7 @@ import Dashboard from './Dashboard';
 import Lo70s from './Lo70s';
 import CRM from './CRM';
 import CSUDH from './CSUDH';
-import CSUDHText from './CSUDHText';
+import Learnit from './Learnit';
 
 const Projects = () => {
     return (
@@ -14,7 +14,7 @@ const Projects = () => {
                 <h1 className="title">My Projects</h1>
                 <div className="row" id="csudh">
                     <CSUDH />
-                    <div className="col"></div>
+                    <Learnit />
                 </div>
                 <div className="row" id="hillbrewing">
 
