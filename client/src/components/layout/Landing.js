@@ -26,19 +26,19 @@ const Landing = () => {
                 </div>
 
                 <div className="landing-languages">
-                    <a href="#projects" className="language html"> <img src={html} alt="" className="language-logo" /> HTML</a>
-                    <a href="#projects" className="language css"> <img src={css} alt="" className="language-logo" /> CSS</a>
-                    <a href="#projects" className="language js"> <img src={javascript} alt="" className="language-logo" /> JavaScript</a>
+                    <a href="#csudh" className="language html"> <img src={html} alt="" className="language-logo" /> HTML</a>
+                    <a href="#csudh" className="language css"> <img src={css} alt="" className="language-logo" /> CSS</a>
+                    <a href="#csudh" className="language js"> <img src={javascript} alt="" className="language-logo" /> JavaScript</a>
                 </div>
 
                 <div className="landing-languages shift">
-                    <a href="#projects" className="language node"> <img src={node} alt="" className="language-logo" /> Node.js</a>
-                    <a href="#projects" className="language react"> <img src={react} alt="" className="language-logo" /> React.js</a>
-                    <a href="#projects" className="language mongo"> <img src={mongo} alt="" className="language-logo" /> MongoDB</a>
+                    <a href="#hillbrewing" className="language node"> <img src={node} alt="" className="language-logo" /> Node.js</a>
+                    <a href="#hillbrewing" className="language react"> <img src={react} alt="" className="language-logo" /> React.js</a>
+                    <a href="#hillbrewing" className="language mongo"> <img src={mongo} alt="" className="language-logo" /> MongoDB</a>
                 </div>
                 <div className="landing-languages">
-                    <a href="#projects" className="language redux"> <img src={redux} alt="" className="language-logo" /> Redux</a>
-                    <a href="#projects" className="language sass"> <img src={sass} alt="" className="language-logo" /> Sass</a>
+                    <a href="#hillbrewing" className="language redux"> <img src={redux} alt="" className="language-logo" /> Redux</a>
+                    <a href="#hillbrewing" className="language sass"> <img src={sass} alt="" className="language-logo" /> Sass</a>
                     <a href="#csudh" className="language materialize"> <img src={materialize} alt="" className="language-logo" /> Materialize</a>
                 </div>
             </div>
