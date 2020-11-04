@@ -22,7 +22,7 @@ const Landing = () => {
 
                 <div className="landing-greeting">
                     <h1 className="greeting">Hi, I'm Vicky!</h1>
-                    <h2 className="subtitle">a full stack developer specializing in:</h2>
+                    <h2 className="subtitle">a Front End Developer specializing in:</h2>
                 </div>
 
                 <div className="landing-languages">
